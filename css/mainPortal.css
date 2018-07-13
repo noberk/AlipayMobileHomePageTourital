@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    background: rgb(30, 130, 210);
+    height: 40px;
+}
