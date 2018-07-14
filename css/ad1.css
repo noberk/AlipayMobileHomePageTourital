@@ -1,0 +1,35 @@
+#ad1{
+    height: 70px;
+    display: flex;
+    background: white;
+    margin-top: 10px;
+}
+
+#ad1 img{
+    height: 50px;
+    margin-top: 10px;
+}
+#ad1 >div{
+    height: 70px;
+}
+
+#ad1 >div:nth-child(1){
+    text-align: center;
+    flex: 20;
+}
+#ad1 >div:nth-child(2){
+    flex: 70;
+    font-size: .8rem;
+    margin-top: 14px;
+    
+}
+#ad1 >div:nth-child(3){
+    flex: 10;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+#ad1 span{
+    color: gray;
+}
