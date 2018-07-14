@@ -1,2 +1,21 @@
+#payHeader{
+    margin-top: 10px;
+    height: 40px;
+    padding-left: 10px;
+    background: white;
+    display: flex;
+    align-items:center;/*垂直居中*/
+    border-bottom: 1px solid #dadada;
+}
 
+#payHeader >span:nth-child(1){
+     
+    border-left: 6px solid  rgb(29, 143, 225);
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 2px;
+}   
+#payHeader >span:nth-child(2){
+    font-size: 1rem;
+}
 
