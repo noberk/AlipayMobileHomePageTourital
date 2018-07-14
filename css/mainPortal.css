@@ -1,10 +1,18 @@
 
+
+ 
 #mainPortal{
+    background: rgb(30, 130, 210);
     display: flex;
 }
 
 #mainPortal >li{
     flex: 1;
     text-align: center;
+    color: white;   
+    margin-bottom: 10px;
 }
 
+#mainPortal >li >img{
+    width: 35%;
+}

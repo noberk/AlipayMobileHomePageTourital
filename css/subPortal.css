@@ -1,18 +1,22 @@
-#mainPortal{
+
+#subPortal{
     display: flex;
     flex-flow: row wrap;
     margin-top: 10px;
 }
 
-#mainPortal >li{
+#subPortal >li{
     height: 100px;
     width: 25%;
     display: inline-block;
-    color: brown;
+    color: black;
   
 }
-#mainPortal >li >div{
+#subPortal >li >div{
     text-align: center;
-    height: 60px;
+    height: 50px;
 }
 
+#subPortal >li >div >img{
+    width: 35%;
+}
