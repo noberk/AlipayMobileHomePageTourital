@@ -1,0 +1,51 @@
+/* step5 */
+#ad2{
+    height: 100px;
+    display: flex;
+    background: white;
+    margin-top: 10px;
+}
+
+
+#ad2 >div{
+    height: 100px;
+}
+
+#ad2 >div:nth-child(1){
+   
+    flex: 60;
+    font-size: .8rem;
+    margin-top: 14px;
+}
+
+#ad2 >div:nth-child(1) >div{
+    
+}
+#ad2 >div:nth-child(1) >p:nth-child(1){
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-left: 10px;
+}
+#ad2 >div:nth-child(1) >p:nth-child(1) >span:nth-child(1){
+    
+}
+#ad2 >div:nth-child(1) >p:nth-child(1) >span:nth-child(2){
+    color: rgb(12,140,233);
+}
+#ad2 >div:nth-child(1) >p:nth-child(2){
+    margin-left: 10px;
+    font-size: 1rem;
+    color: gray;
+    margin-top: 4px;
+}
+
+#ad2 >div:nth-child(2){
+    flex: 40;
+    text-align: center;
+}
+#ad2 >div:nth-child(2) >img{
+    width: 55%;
+    margin-top: 10px;
+}
+
+ 
