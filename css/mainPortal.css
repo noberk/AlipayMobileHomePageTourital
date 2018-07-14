@@ -1,9 +1,15 @@
 
 #mainPortal{
     display: flex;
+    background: rgb(30, 130, 210);
+    color: white;
+    
 }
-
+#mainPortal img{
+    width: 35%;
+}
 #mainPortal >li{
+    margin-bottom: 10px;
     flex: 1;
     text-align: center;
 }
