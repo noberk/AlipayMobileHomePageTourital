@@ -1,5 +1,8 @@
+/* step2 */
 
+ 
 #mainPortal{
+    background: rgb(30, 130, 210);
     display: flex;
     background: rgb(30, 130, 210);
     color: white;
@@ -12,5 +15,10 @@
     margin-bottom: 10px;
     flex: 1;
     text-align: center;
+    color: white;   
+    margin-bottom: 10px;
 }
 
+#mainPortal >li >img{
+    width: 35%;
+}

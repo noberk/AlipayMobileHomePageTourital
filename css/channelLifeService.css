@@ -1,0 +1,66 @@
+#lifeServiceHeader{
+    margin-top: 10px;
+    height: 40px;
+    padding-left: 10px;
+    background: white;
+    display: flex;
+    align-items:center;/*垂直居中*/
+    border-bottom: 1px solid #eeeeee;
+}
+
+#lifeServiceHeader >span:nth-child(1){
+     
+    border-left: 6px solid  rgb(29, 143, 225);
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 2px;
+}   
+#lifeServiceHeader >span:nth-child(2){
+    font-size: 1rem;
+}
+
+#lifeServiceBody{
+    display: flex;
+    height: 100px;
+    background-color: white;
+}
+#lifeServiceBody >div:nth-child(1){
+    
+    flex: 1;
+    background-image: url("../img/question.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 95% 50%;    
+    padding-left: 10px;
+    padding-top: 30px;
+    border-right: 1px solid #eeeeee;
+}
+#lifeServiceBody >div:nth-child(1) >p:nth-child(1){
+    font-weight: bold
+}
+
+#lifeServiceBody >div:nth-child(1) >p:nth-child(2){
+    font-size:0.8rem;
+    margin-top: 4px;
+    color: gray;
+}
+
+#lifeServiceBody >div:nth-child(2){
+    flex: 1;
+    padding-left: 10px;
+    background-image: url("../img/marker.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 95% 50%;    
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+#lifeServiceBody >div:nth-child(2) >p:nth-child(1){
+    font-weight: bold
+}
+#lifeServiceBody >div:nth-child(2) >p:nth-child(2){
+    font-size:0.8rem;
+    margin-top: 4px;
+    color:grey;
+}

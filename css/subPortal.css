@@ -1,0 +1,22 @@
+/* step3 */
+#subPortal{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10px;
+}
+
+#subPortal >li{
+    height: 100px;
+    width: 25%;
+    display: inline-block;
+    color: black;
+  
+}
+#subPortal >li >div{
+    text-align: center;
+    height: 50px;
+}
+
+#subPortal >li >div >img{
+    width: 35%;
+}
