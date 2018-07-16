@@ -7,13 +7,13 @@
 body{
     background: rgb(245, 245, 245);
 }
-search{
+#search{
     background: rgb(30, 130, 210);
     height: 30px;
     display: block;
     padding: 20px 20px;
 }
-search >input{
+#search >input{
     width: 200px;
     background: #1a72b9;
     outline: 0;
@@ -28,23 +28,23 @@ search >input{
     float: left;
 }
 
-search >img{
+#search >img{
     position: relative;
     float: left;
 }
 
-search >img:nth-child(2){
+#search >img:nth-child(2){
     left: -220px;
     top: 3px;
 }
-search >img:nth-child(3){
+#search >img:nth-child(3){
     left: -39px;
     top: 2px;
 }
-search >img:nth-child(4){
+#search >img:nth-child(4){
     float: right;
 }
-search >img:nth-child(5){
+#search >img:nth-child(5){
     float: right;
  margin-right: 5px;
 }
