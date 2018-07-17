@@ -5,7 +5,7 @@
     margin-top: 10px;
 }
 
-#subPortal >li{
+#subPortal >dl{
     text-align: center;
     height: 100px;
     width: 25%;
@@ -13,11 +13,16 @@
     color: black;
   
 }
-#subPortal >li >div{
+#subPortal >dl >dd{
     text-align: center;
     height: 50px;
+    
 }
-
-#subPortal >li >div >img{
+#subPortal >dl >dt{
+    height: 60px;
+  
+}
+#subPortal >dl >dt >img{
     width: 35%;
+  
 }
