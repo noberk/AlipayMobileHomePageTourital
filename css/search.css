@@ -27,6 +27,9 @@ body{
     background-position-x: 6px;
     float: left;
 }
+#search >::-webkit-input-placeholder{
+    color: white;
+}
 
 #search >img{
     position: relative;

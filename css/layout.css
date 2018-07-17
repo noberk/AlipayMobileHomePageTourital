@@ -1,0 +1,25 @@
+#search{
+    background: rgb(247, 184, 142) !important;
+}
+#mainPortal{
+    background: rgb(156, 117, 89) !important;
+}
+#subPortal{
+    background: rgb(196, 221, 126) !important;
+}
+#ad1{
+    background: rgb(210, 235, 73) !important;
+}
+#ad2{
+    background: rgb(102, 236, 61) !important;
+}
+
+#discount div{
+    background: rgb(61, 236, 143) !important;
+}
+#lifeService div{
+    background: rgb(61, 189, 236) !important;
+}
+#dailyPay div{
+    background: rgb(163, 61, 236) !important;
+}
